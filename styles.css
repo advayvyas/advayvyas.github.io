@@ -44,4 +44,31 @@ header {
     font-family: 'Alatsi', sans-serif;
     font-size: 2em;
     text-align: center;
+    line-height: 10px;
+}
+
+nav {
+    font-family: 'Alatsi', sans-serif;
+    text-align: center;
+}
+
+nav a {
+    color: var(--aquamarine);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+mark {
+    background-color: transparent;
+    color: var(--medium-slate-blue);
+}
+
+h2 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: gray;
 }
