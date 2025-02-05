@@ -23,23 +23,23 @@ body {
     color: var(--black);
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .custom-hr {
     height: 5px;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     background-color: var(--burnt-orange);
     border: none;
     margin: 0 auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {
@@ -83,4 +83,28 @@ h2 {
     font-family: 'Alatsi', sans-serif;
     font-size: 1.5em;
     text-align: center;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 600px) {
+    body {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .custom-hr {
+        width: 100%;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
 }
