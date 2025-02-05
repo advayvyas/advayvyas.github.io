@@ -14,37 +14,50 @@
     --cambridge-blue: #96c5b0ff;
     --aquamarine: #adf1d2ff;
     --blue-black: #33415cff;
+    --burnt-orange: #bf5700ff;
+    --cream: #f9e4bcff;
 }
 
 body {
     text-align: left;
-    background-color: var(--blue-black); /* Glaucous background */
-    color: white;
-    max-width: 700px;
+    color: var(--black);
+    max-width: 800px;
     margin: 0 auto;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .custom-hr {
     height: 5px;
-    width: 700px;
-    background-color: var(--aquamarine);
+    width: 800px;
+    background-color: var(--burnt-orange);
     border: none;
     margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     margin-top: 0;
+    color: black;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 
 header {
     font-family: 'Alatsi', sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
-    line-height: 10px;
+    line-height: 5px;
+    color: var(--black);
+    padding-top: 20px;
 }
 
 nav {
@@ -53,7 +66,7 @@ nav {
 }
 
 nav a {
-    color: var(--aquamarine);
+    color: var(--burnt-orange);
     text-decoration: none;
 }
 
@@ -63,12 +76,11 @@ nav a:hover {
 
 mark {
     background-color: transparent;
-    color: var(--medium-slate-blue);
+    color: var(--burnt-orange);
 }
 
 h2 {
     font-family: 'Alatsi', sans-serif;
     font-size: 1.5em;
     text-align: center;
-    color: gray;
 }
