@@ -67,6 +67,14 @@ header {
     padding-top: 20px;
 }
 
+footer {
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1em;
+    color: var(--black);
+    padding: 20px 0;
+}
+
 nav {
     font-family: 'Alatsi', sans-serif;
     text-align: center;
@@ -128,4 +136,11 @@ h3 {
     h2 {
         font-size: 1.2em;
     }
+}
+
+.blog-posts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-top: 0;
+    color: black;
 }
