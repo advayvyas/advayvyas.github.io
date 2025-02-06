@@ -18,6 +18,11 @@
     --cream: #f9e4bcff;
 }
 
+
+.school {
+    line-height: 5px;
+}
+
 body {
     text-align: left;
     color: var(--black);
@@ -41,6 +46,8 @@ body {
     margin: 0 auto;
     display: block;
 }
+
+
 
 p {
     font-family: 'Roboto', sans-serif;
@@ -75,8 +82,14 @@ nav a:hover {
 }
 
 mark {
-    background-color: transparent;
     color: var(--burnt-orange);
+    background-color: transparent;
+}
+
+button {
+    color: var(--burnt-orange);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
 
 h2 {
@@ -84,6 +97,14 @@ h2 {
     font-size: 1.5em;
     text-align: center;
 }
+
+h3 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.4em;
+    line-height: 5px;
+}
+
+
 
 /* Media Queries for Mobile Devices */
 @media (max-width: 600px) {

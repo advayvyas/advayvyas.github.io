@@ -17,23 +17,45 @@
             <h2>
                 <a href="index.html">Home</a> | 
                 <a href="education.html">Education</a> | 
-                <a href="projects.html">Projects</a> | 
-                <a href="blog.html">Blog</a> | 
-                <a href="resume.html">Resume</a>
+                <a href="experience.html">Experience</a> | 
+                <a href="blog.html">Blog</a>
             </h2>
         </nav>
         <hr class="custom-hr">
         <br>
-        <p>
-            Hey! My name is Advay and I'm a Statistics and Data Science major at the University of Texas at Austin. My academic interests include
-            <mark>statistical theory, machine learning, mathematical modeling, game theory, graph theory, and pure mathematics</mark>.
-            <br><br>
-            I also enjoy subjects like the <mark>stock market, economics, modern history, political science</mark>. 
-            I'm always looking to learn new things and expand my horizons.
-            <br><br>
-            In my free time, I love to read novels, bike on a trail, play football & basketball, watch the Longhorns & Cowboys, and read 
-            Wikipedia articles on anything from car engines to combinatorics. 
-        </p>
+        <img src="images/ut.jpg" alt="The University of Texas at Austin" class="center" style="max-width: 700px; width: 100%;">
+        <br>
+        <school>
+            <h3>University of Texas at Austin</h3>
+                <p>
+                    <mark>BS in Statistics and Data Science and Mathematics | GPA: 4.0 | 2024-2027</mark> <br>
+                    CNS Honors Polymathic Scholar
+                </p>
+                <p><i>Statistics and Data Science Coursework: Introduction to Data Science, Statistical Thinking, Elements of Software Design</i></p>
+                <p><i>Mathematics Coursework: Calculus I-III, Linear Algebra, Discrete Mathematics, Real Analysis I, Probability, Introduction to Stochastic Processes, Differential Equations with Linear Algebra</i></p>
+
+            <button onclick="toggleText()">Show more education</button>
+            <div id="toggleText" style="display: none;">
+                <br>
+                <h3>Texas Academy of Mathematics and Science</h3>
+                    <p>Specialization in Computer Science | GPA: 4.0 | 2022-2024</p>
+                <br>
+                <h3>Coppell High School</h3>
+                    <p>Specialization in Computer Science | GPA: 5.41 | 2020-2022</p>
+            </div>
+
+            <script>
+            function toggleText() {
+                var x = document.getElementById("toggleText");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+            </script>
+            
+        </school>
     </main>
 </body>
 </html>
