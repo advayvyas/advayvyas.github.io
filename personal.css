@@ -131,7 +131,7 @@ a {
 }
 
 a:hover {
-    color: darkblue;
+    color: var(--glaucous);
 }
 
 /* Media Queries for Mobile Devices */
