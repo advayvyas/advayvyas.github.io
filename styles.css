@@ -18,6 +18,12 @@
     --cream: #f9e4bcff;
 }
 
+.image-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
 
 .school {
     line-height: 5px;
@@ -47,19 +53,20 @@ body {
     display: block;
 }
 
-
+blockquote {
+    font-family: 'EB Garamond', sans-serif;
+}
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 1.2em;
     margin-top: 0;
     color: black;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 
 header {
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 1.7em;
     text-align: center;
     line-height: 5px;
@@ -69,14 +76,14 @@ header {
 
 footer {
     text-align: center;
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 1em;
     color: var(--black);
     padding: 20px 0;
 }
 
 nav {
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     text-align: center;
 }
 
@@ -101,13 +108,13 @@ button {
 }
 
 h2 {
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 1.5em;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 1.4em;
     line-height: 5px;
 }
