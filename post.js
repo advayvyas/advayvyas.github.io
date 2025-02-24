@@ -36,7 +36,7 @@ async function readPostFile() {
                     <h1>${title}</h1>
                     <p>${date}</p>
                     <p>${description}</p>
-                    <a href="${link}">Link</a>
+                    <p><a href="${link}">Read more...</a></p>
                 </div>
             `;
         }

@@ -114,6 +114,7 @@ h2 {
     font-family: 'EB Garamond', sans-serif;
     font-size: 1.5em;
     text-align: left;
+
 }
 
 h3 {
@@ -124,6 +125,7 @@ h3 {
 
 h1 {
     font-family: "Texturina", serif;
+    color: var(--light-sky-blue-2);
 }
 
 a {
