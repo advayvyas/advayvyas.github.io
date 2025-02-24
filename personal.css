@@ -1,0 +1,166 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Londrina+Outline&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Londrina+Outline&family=Pirata+One&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+
+:root {
+    --alice-blue: #d9f0ffff;
+    --light-sky-blue: #a3d5ffff;
+    --light-sky-blue-2: #83c9f4ff;
+    --medium-slate-blue: #6f73d2ff;
+    --glaucous: #7681b3ff;
+    --black: #070707ff;
+    --violet-jtc: #553555ff;
+    --eggplant: #755b69ff;
+    --cambridge-blue: #96c5b0ff;
+    --aquamarine: #adf1d2ff;
+    --blue-black: #33415cff;
+    --burnt-orange: #bf5700ff;
+    --cream: #f9e4bcff;
+}
+
+.image-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.school {
+    line-height: 5px;
+}
+
+body {
+    text-align: left;
+    color: var(--black);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: var(--blue-black);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-hr {
+    height: 5px;
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--medium-slate-blue); /* Replaced burnt-orange */
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+
+blockquote {
+    font-family: 'EB Garamond', sans-serif;
+}
+
+p {
+    font-family: "Texturina", serif;
+    font-size: 1.2em;
+    margin-top: 0;
+    color: var(--aquamarine);
+}
+
+header {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 1.7em;
+    text-align: left;
+    line-height: 5px;
+    color: var(--black);
+    padding-top: 20px;
+}
+
+footer {
+    text-align: left;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 1em;
+    color: var(--black);
+    padding: 20px 0;
+}
+
+nav {
+    font-family: 'EB Garamond', sans-serif;
+    text-align: left;
+}
+
+nav a {
+    color: var(--medium-slate-blue); /* Replaced burnt-orange */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+mark {
+    color: var(--medium-slate-blue); /* Replaced burnt-orange */
+    background-color: transparent;
+}
+
+button {
+    color: var(--medium-slate-blue); /* Replaced burnt-orange */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 1.4em;
+    line-height: 5px;
+}
+
+h1 {
+    font-family: "Texturina", serif;
+}
+
+a {
+    color: var(--light-sky-blue);
+}
+
+a:hover {
+    color: darkblue;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 600px) {
+    body {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .custom-hr {
+        width: 100%;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+.blog-posts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-top: 0;
+    color: black;
+}

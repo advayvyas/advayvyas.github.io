@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advay Vyas</title>
+    <link rel="stylesheet" href="personal.css">
+    <script src="post.js"></script>
+</head>
+<body>
+    
+    <main>
+        <header>
+            <a href="index.html"><h1>Advay Vyas</h1></a> 
+        </header>
+        <p>
+            Hey, good job on finding this site!
+
+            I'm thinking about having a collection of my thoughts here.
+        </p>
+        <hr class="custom-hr">
+        <br>
+        <section id="blog-posts">
+            <!-- Blog posts will be inserted here -->
+        </section>
+        
+        <script>
+            const posts = readPostFile();
+            console.log(posts);
+            document.getElementById('blog-posts').innerHTML = posts;
+        </script>
+    </main>
+
+    
+</body>
+</html>

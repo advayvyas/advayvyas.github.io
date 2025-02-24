@@ -29,7 +29,7 @@ async function readPostFile() {
             const description = lines[lineIndex++].trim();
             lineIndex++; // Skip the empty line
 
-            const link = `post${number}.html`;
+            const link = `posts/post${number}.html`;
 
             html += `
                 <div>
