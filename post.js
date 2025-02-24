@@ -29,14 +29,14 @@ async function readPostFile() {
             const description = lines[lineIndex++].trim();
             lineIndex++; // Skip the empty line
 
-            const link = `post${number}.html`;
+            const link = `posts/post${number}.html`;
 
             html += `
                 <div>
                     <h1>${title}</h1>
                     <p>${date}</p>
                     <p>${description}</p>
-                    <a href="${link}">Link</a>
+                    <p><a href="${link}">Read more...</a></p>
                 </div>
             `;
         }

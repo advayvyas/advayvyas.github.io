@@ -1,6 +1,10 @@
 /* styles.css */
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Londrina+Outline&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Londrina+Outline&family=Pirata+One&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
 
 :root {
     --alice-blue: #d9f0ffff;
@@ -24,7 +28,6 @@
     margin-bottom: 15px;
 }
 
-
 .school {
     line-height: 5px;
 }
@@ -35,6 +38,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+    background-color: var(--blue-black);
 }
 
 .center {
@@ -47,7 +51,7 @@ body {
     height: 5px;
     width: 100%;
     max-width: 800px;
-    background-color: var(--burnt-orange);
+    background-color: var(--medium-slate-blue); /* Replaced burnt-orange */
     border: none;
     margin: 0 auto;
     display: block;
@@ -58,24 +62,23 @@ blockquote {
 }
 
 p {
-    font-family: 'EB Garamond', sans-serif;
+    font-family: "Texturina", serif;
     font-size: 1.2em;
     margin-top: 0;
-    color: black;
+    color: var(--aquamarine);
 }
-
 
 header {
     font-family: 'EB Garamond', sans-serif;
     font-size: 1.7em;
-    text-align: center;
+    text-align: left;
     line-height: 5px;
     color: var(--black);
     padding-top: 20px;
 }
 
 footer {
-    text-align: center;
+    text-align: left;
     font-family: 'EB Garamond', sans-serif;
     font-size: 1em;
     color: var(--black);
@@ -84,11 +87,11 @@ footer {
 
 nav {
     font-family: 'EB Garamond', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 nav a {
-    color: var(--burnt-orange);
+    color: var(--medium-slate-blue); /* Replaced burnt-orange */
     text-decoration: none;
 }
 
@@ -97,12 +100,12 @@ nav a:hover {
 }
 
 mark {
-    color: var(--burnt-orange);
+    color: var(--medium-slate-blue); /* Replaced burnt-orange */
     background-color: transparent;
 }
 
 button {
-    color: var(--burnt-orange);
+    color: var(--medium-slate-blue); /* Replaced burnt-orange */
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
@@ -110,7 +113,8 @@ button {
 h2 {
     font-family: 'EB Garamond', sans-serif;
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
+
 }
 
 h3 {
@@ -119,7 +123,18 @@ h3 {
     line-height: 5px;
 }
 
+h1 {
+    font-family: "Texturina", serif;
+    color: var(--light-sky-blue-2);
+}
 
+a {
+    color: var(--light-sky-blue);
+}
+
+a:hover {
+    color: var(--glaucous);
+}
 
 /* Media Queries for Mobile Devices */
 @media (max-width: 600px) {
