@@ -57,7 +57,15 @@ body {
 
 blockquote {
     font-family: 'EB Garamond', sans-serif;
-}
+    border-left: 2px solid #ccc;
+    color: var(--aquamarine);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+  }
+
+blockquote p {
+    display: inline-block;
+  }
 
 p {
     font-family: "Texturina", serif;
