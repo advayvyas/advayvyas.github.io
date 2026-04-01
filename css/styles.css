@@ -22,11 +22,13 @@
     margin-bottom: 15px;
 }
 
+.image-right {
+    transition: all 0.3s ease;
+    border-radius: 8px; 
+}
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.image-right:hover {
+    box-shadow: 0 0 0 4px var(--burnt-orange);
 }
 
 .custom-hr {
